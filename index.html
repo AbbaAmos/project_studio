@@ -1,91 +1,100 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <style>
+        <meta property="og:title" content="Arrest data shows Manhattan is NYC's transit crimes hub"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:description" content="As the recent Brooklyn subway shooting reignites discourse on the safety of users of New York City's transit system, a look at data from the last five years shows that Manhattan might be deserving of more police attention than other neighborhoods." />
+        <title>NYPD arrest data in shows little</title>
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"/>
+       <style>
 
-    #scrolly {
-        position: relative;
-        padding: 1rem;
-      }
+		#scrolly {
+			position: relative;
+			padding: 1rem;
+		}
 
-      .scrolly-overlay {
-        position: relative;
-        padding: 0;
-        max-width: 35rem;
-        margin: 0 auto;
-      }
+		.scrolly-overlay {
+			position: relative;
+			padding: 0;
+			max-width: 35rem;
+			margin: 0 auto;
+		}
 
-      .sticky-thing {
-        position: -webkit-sticky;
-        position: sticky;
-        left: 0;
-        width: 100%;
-        margin: 0;
-        z-index: 0;
-        top: 0;
-        height: 90vh;
-        /* Center everything inside */
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        justify-content: center;
-      }
+		.sticky-thing {
+			position: -webkit-sticky;
+			position: sticky;
+			left: 0;
+			width: 100%;
+			margin: 0;
+			z-index: 0;
+			top: 0;
+			height: 90vh;
+			/* Center everything inside */
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			justify-content: center;
+		}
 
-      .step {
-        margin: 0 auto 2rem auto;
-        margin-bottom: 35rem;
-        background-color: #fff;
-        color: black;
-      }
+		.step {
+			margin: 0 auto 2rem auto;
+			margin-bottom: 35rem;
+			background-color: #fff;
+			color: black;
+		}
 
-      .step p {
-        text-align: left;
-        padding: 1rem;
-        font-size: 1rem;
-      }
+		.step p {
+			text-align: left;
+			padding: 1rem;
+			font-size: 1rem;
+		}
 
-      .hidden { visibility: hidden; }
+		.hidden { visibility: hidden; }
 
-         /* When it's less than 700 pixels wide, do normal scrollytelling */
-         @media only screen and (min-width: 700px) {
-        #scrolly.side-by-side {
-          display: flex;
-        }
+			/* When it's less than 700 pixels wide, do normal scrollytelling */
+			@media only screen and (min-width: 700px) {
+			#scrolly.side-by-side {
+			display: flex;
+			}
 
-        #scrolly.side-by-side > div {
-          flex-basis: 0;
-          flex-grow: 1;
-          flex-shrink: 1;
-          padding: 0.75em;
-        }
+			#scrolly.side-by-side > div {
+			flex-basis: 0;
+			flex-grow: 1;
+			flex-shrink: 1;
+			padding: 0.75em;
+			}
 
-        #scrolly.side-by-side .scrolly-overlay {
-          margin-top: 70vh;
-          order: 0;
-          /* Change these to adjust sizing options */
-          min-width: 15rem;
-          max-width: 20rem;
-        }
+			#scrolly.side-by-side .scrolly-overlay {
+			margin-top: 70vh;
+			order: 0;
+			/* Change these to adjust sizing options */
+			min-width: 15rem;
+			max-width: 20rem;
+			}
 
-        #scrolly.side-by-side .sticky-thing {
-          order: 1;
-          flex-grow: 2;
-        }
-      }
-    </style>
-	<script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/scrollama/3.0.4/scrollama.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.3.0/d3.min.js"></script>
+			#scrolly.side-by-side .sticky-thing {
+			order: 1;
+			flex-grow: 2;
+			}
+		}
+		</style>
+		<script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/scrollama/3.0.4/scrollama.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.3.0/d3.min.js"></script>
 	
   </head>
 
-  <body>
+    <body>
     <div class="story">
      <div class="story-body">
-						<h1>NYPD arrest data indicates</h1>
-						<section id="scrolly">
+			               <h1>NYPD arrest data in 2022 shows little</h1>
+                           <iframe title="New York Boros where NYPD made arrests for rape crimes (2022)" aria-label="Map" id="datawrapper-chart-fFkbI" src="https://datawrapper.dwcdn.net/fFkbI/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="708" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+						   </script>
+						   <p>
+						    <p>If you reside in New York, data shows that you are likely to be a victim of assualt in the 3rd degree or your chances of being arrested by the police is higher based on color, according to NYPD arrest records in 2022.</p>
+						    <section id="scrolly">
 							<div class="sticky-thing">
 							<div class="ai2html-container">
 
@@ -554,7 +563,7 @@
 
 							<div class="scrolly-overlay">
 							<div class="step" id="step-zero">
-								<p>If you reside in New York, data shows that you are likely to be a victim of assualt in the 3rd degree or your chances of being arrested by the police is higher based on color, according to NYPD arrest records in 2022..</p>
+								<p>If you reside in New York, data shows that you are likely to be a victim of assualt in the 3rd degree or your chances of being arrested by the police is higher based on color, according to NYPD arrest records in 2022.</p>
 							</div>
 							<div class="step" id="step-one">
 								<p>With over 30,000 assualt related arrests, it constitutes the bulk of the total arrests carried out by the NYPD when compared with other crimes. While the number of cops in each neighborhood is difficult to ascertain since there is no public data available, the total number of arrests were higher in Brooklyn at 50, 961 compared to other boros in New York.</p>
